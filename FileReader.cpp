@@ -7,7 +7,7 @@ std::string FileReader::readFileToString(std::string fileName) {
 
     if (file.is_open()) {
         while (std::getline(file, text)){
-            std::cout << text << '\n';
+            //std::cout << text << '\n';  debug statement 
         }
         file.close();
     } else {
